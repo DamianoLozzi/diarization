@@ -160,3 +160,11 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+pretrained_models/spkrec-xvect-voxceleb/classifier.ckpt
+pretrained_models/spkrec-xvect-voxceleb/embedding_model.ckpt
+pretrained_models/spkrec-xvect-voxceleb/hyperparams.yaml
+pretrained_models/spkrec-xvect-voxceleb/label_encoder.ckpt
+pretrained_models/spkrec-xvect-voxceleb/mean_var_norm_emb.ckpt
+fables_01_02_aesop_converted.wav
+fables_01_02_aesop.mp3
+test.py

@@ -5,10 +5,10 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'simple-diarizer==0.0.13',
-        'torchvision==0.19.0',
-        'speechbrain==0.5.16',
-        'soundfile==0.12.1'
+        'simple-diarizer @ git+https://github.com/DamianoLozzi/simple_diarizer.git',
+        'torchvision>=0.19.0',
+        'speechbrain>=0.5.16',
+        'soundfile>=0.12.1'
     ],
     description='A simple diarization package',
     author='DamianoLozzi',
