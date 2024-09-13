@@ -4,7 +4,7 @@ import soundfile as sf
 
 class SegmentDict(TypedDict):
     num: int
-    label: str
+    label: int
     start: float
     end: float
     start_sample: float
@@ -69,7 +69,7 @@ class Diarization:
         for segment in segments:
             segment_dict: SegmentDict = {
                 "num": int(segment_count),
-                "label": float(segment['label']),
+                "label": int(segment['label']),
                 "start": float(segment['start']),
                 "end": float(segment['end']),
                 "start_sample": float(segment['start'] * info.samplerate),
