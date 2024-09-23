@@ -7,7 +7,7 @@ setup(
     install_requires=[
         'simple-diarizer @ git+https://github.com/DamianoLozzi/simple_diarizer.git',
         'torchvision>=0.19.0',
-        'speechbrain>=0.5.16',
+        'speechbrain>=1.0.1',
         'soundfile>=0.12.1'
     ],
     description='A simple diarization package',
